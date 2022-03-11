@@ -36,7 +36,7 @@ class Predictor:
 
         except Exception:
             print(f'{img} cannot be read')
-#nig
+
     def get_labels(self):
         i, glasses = 0, 0
         for img in self.images:
