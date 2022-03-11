@@ -7,7 +7,7 @@
 
 Пример запуска скрипта: python main.py -i 'C:\some_directory' -n 100
 
-Сам классификатор реализован в файле eyeglasses.py, в котором используется обученная pytorch модель mobilev3_model.pt. Модель была обучена на датасете "Glasses Or No Glasses" (https://www.kaggle.com/jeffheaton/glasses-or-no-glasses)
+Сам классификатор реализован в файле eyeglasses.py, в котором используется обученная pytorch модель mobilev3_model.pt. Для классификации, скрипт должен находиться в одной папке с моделью. Модель была обучена на датасете "Glasses Or No Glasses" (https://www.kaggle.com/jeffheaton/glasses-or-no-glasses)
 
 Код, с помощью которого было осуществлено обучение модели находится в model_training.ipynb (сама модель была обучена на Google Colab).
 
